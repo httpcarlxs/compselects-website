@@ -1,5 +1,6 @@
 import Header from './components/header/header';
 import NewReleases from './components/newReleases/index'
+import TopSellers from './components/topSeallers';
 import './styles/App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className='container'>
         <Header/>
         <NewReleases/>
+        <TopSellers/>
       </div>
     </div>
   );

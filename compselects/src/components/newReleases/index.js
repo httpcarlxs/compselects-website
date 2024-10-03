@@ -9,7 +9,7 @@ const NewReleases = () => {
     return (
     <div className="new-releases-container">
       <div className="text-section">
-        <h2 className="section-title">New Releases This Week</h2>
+        <h2 className="section-title">Explore Nossos Livros</h2>
         <p className="section-description">
           It's time to update your reading list with some of the latest and greatest releases in the literary world. 
           From heart-pumping thrillers to captivating memoirs, this week's new releases offer something for everyone.
