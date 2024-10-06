@@ -1,0 +1,19 @@
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+.partner img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+

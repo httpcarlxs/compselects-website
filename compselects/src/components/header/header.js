@@ -1,19 +1,18 @@
-import './styles.css'
+import "./styles.css";
 
-
-function Header() {
+function Header({ setActivePage }) {
   return (
-    <div className='box'>
-        <ul className='menu'>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Publicações</li>
-          <li>Autores</li>
-          <li>Submissões</li>
-          <li>Eventos</li>
-          <li>Blog</li>
-        </ul>
-        <input className="search" type="text"/>
+    <div className="box">
+      <ul className="menu">
+        <li onClick={() => setActivePage("home")}>Home</li>
+        <li onClick={() => setActivePage("sobre")}>Sobre</li>
+        <li>Publicações</li>
+        <li>Autores</li> 
+        <li>Submissões</li>
+        <li>Eventos</li>
+        <li>Blog</li>
+      </ul>
+      <input className="search" type="text" />
     </div>
   );
 }
