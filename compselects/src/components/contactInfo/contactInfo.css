@@ -1,0 +1,15 @@
+.contact-info {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+  

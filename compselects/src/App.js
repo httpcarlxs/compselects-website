@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Home from "./Home";
 import Eventos from "./Eventos";
 import Sobre from "./Sobre";
+import Contato from "./Contato";
+import Blog from "./Blog";
+import Submission from "./Submission";
 import Publicacoes from "./Publicacoes";
 import Header from "./components/header/header";
 import Footer from "./components/footer";
@@ -16,6 +19,12 @@ function App() {
       return <Sobre />;
     } else if (activePage === "eventos") {
       return <Eventos />;
+    } else if (activePage === "contato") {
+      return <Contato />;
+    } else if (activePage === "blog") {
+      return <Blog />;
+    } else if (activePage === "submissoes") {
+      return <Submission />;
     } else if (activePage === "publicacoes") {
       return <Publicacoes />;
     } else {
