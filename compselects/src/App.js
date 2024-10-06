@@ -1,21 +1,30 @@
-import Header from './components/header/header';
-import NewReleases from './components/newReleases/index'
-import TopSellers from './components/topSeallers';
-import Reports from './components/reports'
-import Footer from './components/footer'
-import EventsSection from './components/event'
-import './styles/App.css'
+import React, { useState } from "react";
+import Home from "./Home";
+import Eventos from "./Eventos";
+import Sobre from "./Sobre";
+import Header from "./components/header/header";
+import Footer from "./components/footer";
+import "./styles/App.css";
 
 function App() {
+  const [activePage, setActivePage] = useState("home");
+
+  const renderPage = () => {
+    if (activePage === "sobre") {
+      return <Sobre />;
+    } else if (activePage === "eventos"){
+      return <Eventos />;
+    } else {
+      return <Home />;
+    }
+  };
+
   return (
-    <div className='background'>
-      <div className='container'>
-        <Header/>
-        <NewReleases/>
-        <TopSellers/>
-        <Reports/>
-        <EventsSection/>
-        <Footer/>
+    <div className="background">
+      <div className="container">
+        <Header setActivePage={setActivePage} />
+        {renderPage()}
+        <Footer />
       </div>
     </div>
   );
