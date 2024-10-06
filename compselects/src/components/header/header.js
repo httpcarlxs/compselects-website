@@ -7,7 +7,7 @@ function Header({ setActivePage }) {
         <li onClick={() => setActivePage("home")}>Home</li>
         <li onClick={() => setActivePage("sobre")}>Sobre</li>
         <li onClick={() => setActivePage("publicacoes")}>Publicações</li>
-        <li>Autores</li> 
+        <li onClick={() => setActivePage("autores")}>Autores</li> 
         <li onClick={() => setActivePage("submissoes")}>Submissões</li>
         <li onClick={() => setActivePage("eventos")}>Eventos</li>
         <li onClick={() => setActivePage('blog')}>Blog</li>

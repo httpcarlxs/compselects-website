@@ -1,0 +1,54 @@
+.seja-autor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-section {
+    max-width: 40%;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #d89d00;
+}
+
+.author-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.author-item {
+    width: 150px;
+    height: auto;
+}
+
+.author-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

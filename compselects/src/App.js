@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Home from "./Home";
+import Autores from "./Autores";
 import Eventos from "./Eventos";
 import Sobre from "./Sobre";
 import Contato from "./Contato";
@@ -17,7 +18,9 @@ function App() {
   const renderPage = () => {
     if (activePage === "sobre") {
       return <Sobre />;
-    } else if (activePage === "eventos") {
+    } else if (activePage === "autores") {
+      return <Autores />;
+    }else if (activePage === "eventos") {
       return <Eventos />;
     } else if (activePage === "contato") {
       return <Contato />;
@@ -33,7 +36,6 @@ function App() {
   };
 
   return (
-    // Certifique-se de envolver o conteúdo com o FilterProvider
     <FilterProvider>
       <div className="background">
         <div className="container">

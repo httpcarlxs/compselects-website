@@ -1,0 +1,47 @@
+.author-store {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.author-section {
+    margin: 1rem 0;
+}
+
+.author-list {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.author-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.author-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.price {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 0.5rem;
+}
+
+.add-to-basket {
+    margin-top: 1rem;
+    background-color: #ffdd57;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
