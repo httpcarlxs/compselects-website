@@ -6,7 +6,7 @@ import "./styles/Eventos.css";
 const eventsData = [
   {
     id: 1,
-    title: "Lançamento do Livro X",
+    title: "Lançamento do Livro Fundamentos de Programação Web",
     date: "15 de Outubro de 2024",
     location: "São Paulo, SP",
     agenda: "Palestra e sessão de autógrafos com o autor",
@@ -29,7 +29,68 @@ const eventsData = [
       "Exposição de livros e autores presentes para sessões de autógrafos",
     registrationLink: "https://example.com/feira",
   },
-  // Adicione mais eventos conforme necessário
+  {
+    id: 4,
+    title: "Workshop de Escrita Criativa",
+    date: "12 de Novembro de 2024",
+    location: "Belo Horizonte, MG",
+    agenda:
+      "Oficina prática sobre técnicas de escrita criativa para novos autores.",
+    registrationLink: "https://example.com/escritacriativa",
+  },
+  {
+    id: 5,
+    title: "Lançamento do Livro Futuro da Tecnologia",
+    date: "20 de Novembro de 2024",
+    location: "Brasília, DF",
+    agenda:
+      "Discussão com especialistas sobre os impactos das novas tecnologias na sociedade.",
+    registrationLink: "https://example.com/livroy",
+  },
+  {
+    id: 6,
+    title: "Palestra sobre Publicação Digital",
+    date: "25 de Novembro de 2024",
+    location: "Online",
+    agenda:
+      "Palestra sobre estratégias para publicação e distribuição digital de livros.",
+    registrationLink: "https://example.com/publicacaodigital",
+  },
+  {
+    id: 7,
+    title: "Encontro de Autores e Leitores",
+    date: "30 de Novembro de 2024",
+    location: "Curitiba, PR",
+    agenda: "Evento de networking entre autores independentes e leitores.",
+    registrationLink: "https://example.com/encontroautores",
+  },
+  {
+    id: 8,
+    title: "Simpósio sobre Educação e Tecnologia",
+    date: "5 de Dezembro de 2024",
+    location: "Florianópolis, SC",
+    agenda:
+      "Debates sobre como as novas tecnologias estão transformando a educação.",
+    registrationLink: "https://example.com/simposioeducacao",
+  },
+  {
+    id: 9,
+    title: "Conferência de Autores de Ficção Científica",
+    date: "10 de Dezembro de 2024",
+    location: "Porto Alegre, RS",
+    agenda:
+      "Discussões sobre o futuro da ficção científica e a evolução do gênero.",
+    registrationLink: "https://example.com/conferenciaficcao",
+  },
+  {
+    id: 10,
+    title: "Oficina de Ilustração para Livros Infantis",
+    date: "15 de Dezembro de 2024",
+    location: "Recife, PE",
+    agenda:
+      "Workshop sobre criação de ilustrações para livros infantis, com dicas e exercícios práticos.",
+    registrationLink: "https://example.com/ilustracaoinfantil",
+  },
 ];
 
 function Eventos() {
