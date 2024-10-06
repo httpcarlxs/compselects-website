@@ -9,7 +9,7 @@ function Header({ setActivePage }) {
         <li>Publicações</li>
         <li>Autores</li> 
         <li>Submissões</li>
-        <li>Eventos</li>
+        <li onClick={() => setActivePage("eventos")}>Eventos</li>
         <li>Blog</li>
       </ul>
       <input className="search" type="text" />

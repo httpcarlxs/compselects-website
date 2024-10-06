@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Home from "./Home";
+import Eventos from "./Eventos";
 import Sobre from "./Sobre";
 import Header from "./components/header/header";
 import Footer from "./components/footer";
@@ -11,6 +12,8 @@ function App() {
   const renderPage = () => {
     if (activePage === "sobre") {
       return <Sobre />;
+    } else if (activePage === "eventos"){
+      return <Eventos />;
     } else {
       return <Home />;
     }
