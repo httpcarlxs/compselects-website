@@ -1,6 +1,9 @@
 import Header from './components/header/header';
 import NewReleases from './components/newReleases/index'
 import TopSellers from './components/topSeallers';
+import Reports from './components/reports'
+import Footer from './components/footer'
+import EventsSection from './components/event'
 import './styles/App.css'
 
 function App() {
@@ -10,6 +13,9 @@ function App() {
         <Header/>
         <NewReleases/>
         <TopSellers/>
+        <Reports/>
+        <EventsSection/>
+        <Footer/>
       </div>
     </div>
   );
