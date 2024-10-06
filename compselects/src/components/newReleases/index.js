@@ -11,10 +11,9 @@ const NewReleases = () => {
       <div className="text-section">
         <h2 className="section-title">Explore Nossos Livros</h2>
         <p className="section-description">
-          It's time to update your reading list with some of the latest and greatest releases in the literary world. 
-          From heart-pumping thrillers to captivating memoirs, this week's new releases offer something for everyone.
+          Explore nossa coleção e descubra livros que vão inspirar, emocionar e transformar suas leituras.
         </p>
-        <button className="subscribe-button">Subscribe</button>
+        <button className="subscribe-button">Inscrever-se</button>
       </div>
 
       <div className="book-gallery">

@@ -2,23 +2,23 @@ import React from 'react';
 import './styles.css';
 
 const eventsData = [
-  {
-    title: 'Upcoming Events',
-    description: 'Discover the latest events hosted by our bookstore, featuring exclusive book launches, author meetups, and more.',
-    link: '#upcoming-events',
-  },
-  {
-    title: 'Workshops',
-    description: 'Join our hands-on workshops, designed for readers and writers alike. Learn from industry professionals and sharpen your skills.',
-    link: '#workshops',
-  },
-  {
-    title: 'Conferences',
-    description: 'Explore the most insightful literary conferences supported by our bookstore, where experts share knowledge about the future of reading.',
-    link: '#conferences',
-  },
-];
-
+    {
+      title: 'Próximos Eventos',
+      description: 'Descubra os mais recentes eventos organizados por nossa editora, incluindo lançamentos exclusivos de livros, encontros com autores e muito mais.',
+      link: '#upcoming-events',
+    },
+    {
+      title: 'Workshops',
+      description: 'Participe de nossos workshops práticos, projetados tanto para leitores quanto para escritores. Aprenda com profissionais da indústria e aprimore suas habilidades.',
+      link: '#workshops',
+    },
+    {
+      title: 'Conferências',
+      description: 'Explore as conferências literárias mais perspicazes apoiadas por nossa editora, onde especialistas compartilham conhecimentos sobre o futuro da leitura.',
+      link: '#conferences',
+    },
+  ];
+  
 const EventsSection = () => {
   return (
     <section className="events-section">
@@ -28,7 +28,7 @@ const EventsSection = () => {
           <div key={index} className="event-card">
             <h3 className="event-card-title">{event.title}</h3>
             <p className="event-description">{event.description}</p>
-            <a href={event.link} className="event-link">Learn More</a>
+            <a href={event.link} className="event-link">Ver mais</a>
           </div>
         ))}
       </div>

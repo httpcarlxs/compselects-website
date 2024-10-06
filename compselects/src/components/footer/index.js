@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-bottom">
       <div className="footer-top">
         <div className="subscribe-section">
-          <p>Subscribe to stay tuned for new product and latest updates. Let's do it!</p>
+        <p>Inscreva-se para ficar por dentro de novos produtos e das últimas atualizações. Vamos lá!</p>
           <form className="subscribe-form">
             <input type="email" placeholder="Enter your email address" />
             <button type="submit">Subscribe</button>
@@ -18,10 +18,8 @@ const Footer = () => {
         </div>
       </div>
         <div className="footer-links">
-          <a href="#privacy">Privacy Policy</a>
-          <a href="#terms">Terms of Use</a>
-          <a href="#refunds">Sales and Refunds</a>
-          <a href="#legal">Legal</a>
+          <a href="#privacy">Política de privacidade</a>
+          <a href="#terms">Termos de uso</a>
         </div>
         <div className="social-icons">
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
