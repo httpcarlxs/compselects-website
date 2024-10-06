@@ -11,6 +11,7 @@ function Header({ setActivePage }) {
         <li>Submissões</li>
         <li onClick={() => setActivePage("eventos")}>Eventos</li>
         <li>Blog</li>
+        <li onClick={() => setActivePage("contato")}>Contato</li>
       </ul>
       <input className="search" type="text" />
     </div>
