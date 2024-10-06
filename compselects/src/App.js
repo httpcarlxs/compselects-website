@@ -5,8 +5,10 @@ import Sobre from "./Sobre";
 import Contato from "./Contato";
 import Blog from "./Blog";
 import Submission from "./Submission";
+import Publicacoes from "./Publicacoes";
 import Header from "./components/header/header";
 import Footer from "./components/footer";
+import { FilterProvider } from "./utils/FilterContext";
 import "./styles/App.css";
 
 function App() {
@@ -23,19 +25,24 @@ function App() {
       return <Blog />;
     } else if (activePage === "submissoes") {
       return <Submission />;
-    }else {
+    } else if (activePage === "publicacoes") {
+      return <Publicacoes />;
+    } else {
       return <Home />;
     }
   };
 
   return (
-    <div className="background">
-      <div className="container">
-        <Header setActivePage={setActivePage} />
-        {renderPage()}
-        <Footer />
+    // Certifique-se de envolver o conteúdo com o FilterProvider
+    <FilterProvider>
+      <div className="background">
+        <div className="container">
+          <Header setActivePage={setActivePage} />
+          {renderPage()}
+          <Footer />
+        </div>
       </div>
-    </div>
+    </FilterProvider>
   );
 }
 
