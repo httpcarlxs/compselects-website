@@ -6,7 +6,7 @@ function Header({ setActivePage }) {
       <ul className="menu">
         <li onClick={() => setActivePage("home")}>Home</li>
         <li onClick={() => setActivePage("sobre")}>Sobre</li>
-        <li>Publicações</li>
+        <li onClick={() => setActivePage("publicacoes")}>Publicações</li>
         <li>Autores</li> 
         <li>Submissões</li>
         <li onClick={() => setActivePage("eventos")}>Eventos</li>
